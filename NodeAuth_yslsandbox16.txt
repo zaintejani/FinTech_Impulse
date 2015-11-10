@@ -1,0 +1,44 @@
+<HTML>
+<HEAD>
+</HEAD>
+<BODY>
+  <!--
+  http://127.0.0.1:3000/authenticate/finapp
+	SAML Response : <input type="text" name="samlResponse" /></br></br>
+	Issuer Id : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="issuerId" /></br></br></br>
+	<form action="http://192.168.66.28:3000/authenticate/nodesmb/"  method="POST"></br>
+<form action="https://finapp.l1mmhtmlmc.corp.yodlee.com/authenticate/nodesmb/"  method="POST"></br>
+<form action="http://localhost:3000/authenticate/nodesmb/logout/"  method="POST"></br>
+<!-- source <input type="text" name="source" /></br>-->
+
+<form action="https://yieapnodestage.yodlee.com/authenticate/privateyslsandbox12/"  method="POST"></br>
+	</br>
+	<dl>
+		<dt> Finapp Id</dt>
+		<dd> <input type="text" name="app" value="10003600" /> </dd>
+	</dl
+	<dl>
+		<dt> rsession</dt>
+		<dd> <input type="text" name="rsession" /> </dd>
+	</dl
+	<dl>
+		<dt> token</dt>
+		<dd> <input type="text" name="token" /> </dd>
+	</dl>
+
+	<dl>
+		<dt> Redirect Required </dt>
+		<dd> <input type="text" name="redirectReq" placeholder="true" value="true"/> </dd>
+	</dl>
+	</br></br>
+	</br></br></br>
+
+	<dl>
+		<dt></dt>
+		<dd> <input type="submit" name="submit" /> </dd>
+	</dl>
+</form>
+<script>
+</script>
+</BODY>
+</HTML>
